@@ -355,14 +355,14 @@ if __name__ == "__main__":
         # root = tk.Tk()
         # root.withdraw()
         # outputfile = simpledialog.askstring("User Input", "Please name your output file: ")
-        print(f"You entered: {outputfile}")
+        # print(f"You entered: {outputfile}")
         txt_op = outputfile+'.txt'
         mrc_op = outputfile+'.mrc'
         skip_op = outputfile+'SkippedRecords.mrc'
-        print(f"Text file: {txt_op}, Marc file: {mrc_op} Created.")
+        # print(f"Text file: {txt_op}, Marc file: {mrc_op} Created.")
         process_mrk_file(filepath, txt_op, mrc_op, skip_op)
-        print(f"\n(Find the skipped records in file '{skip_op}')")
-        print(f"\n(Results have been generated in files '{txt_op}' & '{mrc_op}')")
+        # print(f"\n(Find the skipped records in file '{skip_op}')")
+        # print(f"\n(Results have been generated in files '{txt_op}' & '{mrc_op}')")
     except Exception as e:
         raise e
     finally:
