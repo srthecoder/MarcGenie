@@ -48,7 +48,7 @@
             formData.append('marcFile', document.getElementById('fileInput').files[0]);
             formData.append('outputName', document.getElementById('outputName').value);
 
-            fetch('https://your-backend-endpoint-url/auto', {
+            fetch('https://marcgenie-lm3xc1i4l-srthecoders-projects.vercel.app', {
                 method: 'POST',
                 body: formData
             })
