@@ -19,7 +19,7 @@ def auto():
 
     try:
         # Call the auto.py script
-        subprocess.run(['python3', 'scripts/auto.py', input_filepath, output_name], check=True)
+        subprocess.run(['python3', 'auto.py', input_filepath, output_name], check=True)
 
         return f"Processing complete. Files created: {output_txt}, {output_mrc}, {skip_output}"
 
